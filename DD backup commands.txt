@@ -1,0 +1,30 @@
+  ├─mpathd-part1            254:5    0    2G  0 part  /boot
+ ├─mpathd-part2            254:6    0  500M  0 part  /boot/efi
+  └─mpathd-part3            254:7    0 147.5G 0 part
+ 
+dd if=/dev/mapper/mpathd-part1 of=/os_backup/mpathd-part1_boot_imgbkp_07012025.img status=progress bs=4096
+dd if=/dev/mapper/mpathd-part2 of=/os_backup/mpathd-part2_boot-efi_imgbkp_07012025.img status=progress bs=4096
+dd if=/dev/mapper/mpathd-part3 of=/os_backup/mpathd-part3_rootlvm_imgbkp_07012025.img status=progress bs=4096
+
+cp -p /etc/fstab /etc/fstab_17012025
+cp /etc/shadow /etc/shadow_17012025
+
+cp -p /etc/resolv.conf /etc/resolv.conf
+
+cp -p /etc/fstab /etc/fstab_12022025
+
+cp /etc/shadow /etc/shadow_12022025
+
+9C118J3
+
+u7gpnbmep002, u7gvsrahtmp01 and u7gpnbmep003
+
+Firmware upgrade and OS update
+
+ue6pnbmep001, ue6pnbmep002, ue6abmssp001 and ue6vsrahtmp01
+
+dd if=/dev/mapper/
+
+useradd -G users,100 -g 100 -c "Rakesh.JR1@viatris.com" -d /home/"m669068" -m -u "6324" -s /bin/bash "m669068" && echo m669068:knIVK3HyLSJ | chpasswd
+
+cp -p /etc/fstab /etc/fstab_12July2025
