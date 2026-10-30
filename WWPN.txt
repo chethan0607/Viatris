@@ -1,0 +1,7 @@
+To fetch WWPN number details.
+
+cat /sys/class/fc_host/host*/port_name
+
+To check the port state.
+
+cat /sys/class/fc_host/host*/port_state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

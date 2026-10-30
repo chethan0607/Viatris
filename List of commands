@@ -1,0 +1,139 @@
+useradd
+chpasswd
+pam_tally2 --user=daaadm --reset
+pam_tally2 --user=m660084 --reset
+faillock --user=m660084 --reset
+groupadd
+mkdir
+touch
+rm
+rmdir
+Chmod
+Chown
+Cp
+grep
+egrep
+find
+cat
+cd
+dmidcode -t
+yum
+subscription-manager // status / list 
+install
+fdisk
+sosreport
+vgdisplay
+vgextend
+lvs
+lvextend
+xfs_growfs
+ip addr
+ifconfig
+netstat -nr
+df -hT
+df -h | wc -l
+cat /etc/fstab
+cat /etc/fstab | wc -l
+pvs
+vgs
+lscpu
+free -g
+dmidecode -t system
+cat /etc/resolv.conf
+multipath -ll
+ntpq -p
+chronyc sourcestats
+chronyc sources
+cat /etc/hosts
+df -x tmpfs | wc -l
+df -h
+df -Th | wc -l
+df -h | wc -l
+df -h | grep -v -w tmpfs | wc -l
+df -hT | wc -l
+pvcreate 
+vgcreate 
+lvcreate 
+mkfs.xfs 
+mkdir 
+mount 
+dd 
+subscription-manager release --set
+subscription-manager release --show
+cp
+lsblk
+fdisk 
+cfdisk
+yum clean all
+subscription-manager refresh
+yum repolist
+subscription-manager release
+yum update
+teamdctl 
+nmcli connection show
+nmcli connection delete 
+ethtool 
+ifcfg-team0
+nmcli connection modifycat ifcfg-team0
+nmcli connection modify team0 ipv4.dns-search ''
+cat ifcfg-team0
+systemctl reload NetworkManager.service
+ls
+cat ifcfg-team0
+nmcli connection reload
+cat ifcfg-team0
+nmcli connection show
+cd /etc/NetworkManager/
+cp NetworkManager.conf NetworkManager.conf.$(date +%F)
+vi NetworkManager.conf
+vi /etc/resolv.conf
+cat /etc/resolv.conf
+teamdctl team0 state
+nmcli connection show
+cd /etc/sysconfig/network-scripts/
+cat ifcfg-team0
+systemctl stop chronyd
+systemctl status chronyd
+vi /etc/chrony.conf
+systemctl start chronyd
+systemctl enable chronyd
+systemctl status chronyd
+tar -cvz
+/etc/sudoers.d
+chage
+chage -M
+pcs status
+ps -lA | egrep '^. D|^F'
+
+date
+cat /etc/os-release
+hostname
+uptime
+ip addr
+ifconfig
+netstat -nr
+df -hT
+df -h | wc -l
+cat /etc/fstab
+cat /etc/fstab | wc -l
+pvs
+vgs
+lvs
+lscpu
+free -g
+dmidecode -t system
+cat /etc/resolv.conf
+multipath -ll
+ntpq -p
+chronyc sourcestats
+chronyc sources
+cat /etc/hosts
+df -x tmpfs | wc -l
+cat /etc/fstab
+df -h
+df -Th | wc -l
+df -h | wc -l
+df -h | grep -v -w tmpfs | wc -l
+cat /etc/fstab
+df -hT
+df -hT | wc -l
